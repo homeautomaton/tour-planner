@@ -2,6 +2,9 @@ let currentTour = null;
 let selectedStops = [];
 let tourData = {};
 
+// fredericksburg map
+// https://www.google.com/maps/search/wineries/@30.2738763,-98.8722012,1807m/data=!3m1!1e3!4m2!2m1!6e5?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D
+
 const menu = document.getElementById("menu");
 const hamburger = document.getElementById("hamburger");
 
@@ -100,13 +103,15 @@ function hideTooltip() {
   if (tooltip) tooltip.remove();
 }
 
-document.getElementById("map-image").onclick = function(e) {
-  const rect = this.getBoundingClientRect();
+document.getElementById("map-container").onclick = function(e) {
+  const img = document.getElementById("map-image");
+  const rect = img.getBoundingClientRect();
+
   const x = e.clientX - rect.left;
   const y = e.clientY - rect.top;
 
-  alert("Pixel:", x, y);
-  alert("Percent:",
+  console.log("Pixel:", x, y);
+  console.log("Percent:",
     (x / rect.width * 100).toFixed(2),
     (y / rect.height * 100).toFixed(2)
   );

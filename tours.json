@@ -6,43 +6,43 @@
         "name": "Invention Vineyards",
         "summary": "4222 S State Hwy 16",
         "address": "Invention Vineyards, 4222 S State Hwy 16, Fredericksburg, TX 78624",
-        "x": 52,
-        "y": 75
+        "x": 4.13,
+        "y": 86.70
       },
       {
         "name": "Pontotoc Vineyard Weingarten",
         "summary": "320 W Main St",
         "address": "Pontotoc Vineyard Weingarten, 320 W Main St, Fredericksburg, TX 78624",
-        "x": 64,
-        "y": 32
+        "x": 19.51,
+        "y": 6.52
       },
       {
         "name": "Narrow Path Main Street Tasting Room",
         "summary": "113 E Main St",
         "address": "Narrow Path Main Street Tasting Room, 113 E Main St, Fredericksburg, TX 78624",
-        "x": 66,
-        "y": 35
+        "x": 45.65,
+        "y": 34.27
       },
       {
         "name": "Fat Ass Ranch & Winery Downtown",
         "summary": "153 E Main St",
         "address": "Fat Ass Ranch & Winery Downtown, 153 E Main St, Fredericksburg, TX 78624",
-        "x": 67,
-        "y": 36
+        "x": 51.78,
+        "y": 38.75
       },
       {
         "name": "Becker Vineyards",
         "summary": "307 US-87",
         "address": "Becker Vineyards, 307 US-87, Fredericksburg, TX 78624",
-        "x": 69,
-        "y": 38
+        "x": 66.29,
+        "y": 51.28
       },
       {
         "name": "Coordinates Vineyards",
         "summary": "417 E Main St",
         "address": "Coordinates Vineyards, 417 E Main St, Fredericksburg, TX 78624",
-        "x": 71,
-        "y": 40
+        "x": 80.93,
+        "y": 64.07 
       }
     ]
   }

@@ -10,6 +10,20 @@
         "y": 86.70
       },
       {
+        "name": "Signor Vineyards Downtown",
+        "summary": "107 N Orange St",
+        "address": "Signore Vineyards Downtown, 107 N Orange St, Fredericksburg, TX 78624",
+        "x": 30.02,
+        "y": 9.72
+      },
+      {
+        "name": "Cross Mountain Vineyard Tasting Room",
+        "summary": "238 E Main St",
+        "address": "Cross Mountain Vineyard Tasting Room, 238 E Main St, Fredericksburg, TX 78624",
+        "x": 61.79,
+        "y": 43.61
+      },
+      {
         "name": "Pontotoc Vineyard Weingarten",
         "summary": "320 W Main St",
         "address": "Pontotoc Vineyard Weingarten, 320 W Main St, Fredericksburg, TX 78624",

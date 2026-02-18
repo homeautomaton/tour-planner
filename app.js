@@ -100,6 +100,18 @@ function hideTooltip() {
   if (tooltip) tooltip.remove();
 }
 
+document.getElementById("map-image").onclick = function(e) {
+  const rect = this.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const y = e.clientY - rect.top;
+
+  console.log("Pixel:", x, y);
+  console.log("Percent:",
+    (x / rect.width * 100).toFixed(2),
+    (y / rect.height * 100).toFixed(2)
+  );
+}
+
 document.getElementById("generate-route").onclick = () => {
   if (selectedStops.length < 2) {
     alert("Select at least 2 stops.");

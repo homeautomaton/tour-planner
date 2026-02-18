@@ -105,8 +105,8 @@ document.getElementById("map-image").onclick = function(e) {
   const x = e.clientX - rect.left;
   const y = e.clientY - rect.top;
 
-  console.log("Pixel:", x, y);
-  console.log("Percent:",
+  alert("Pixel:", x, y);
+  alert("Percent:",
     (x / rect.width * 100).toFixed(2),
     (y / rect.height * 100).toFixed(2)
   );

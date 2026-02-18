@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Wine Tour Prototype</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="navbar">
+  <div class="hamburger" id="hamburger">&#9776;</div>
+  <div class="menu" id="menu">
+    <div class="menu-item active" data-tour="fredericksburg">Fredericksburg</div>
+    <div class="menu-item disabled" data-tour="hye">Hye (Coming Soon)</div>
+    <div class="menu-item disabled" data-tour="spicewood">Spicewood (Coming Soon)</div>
+  </div>
+</div>
+
+<div id="main">
+
+  <div id="map-container">
+    <img id="map-image" />
+    <div id="stops-layer"></div>
+  </div>
+
+  <div id="sidebar">
+    <h3>Selected Stops</h3>
+    <ul id="selected-list"></ul>
+    <button id="generate-route">Generate Google Route</button>
+  </div>
+
+</div>
+
+<div id="under-construction" class="hidden">
+  <img src="images/under_construction.png" />
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

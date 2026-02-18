@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #222;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+
+.hamburger {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  background: #333;
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  width: 200px;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: #444;
+}
+
+.menu-item.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+#main {
+  display: flex;
+}
+
+#map-container {
+  position: relative;
+  flex: 3;
+}
+
+#map-image {
+  width: 100%;
+  display: block;
+}
+
+#stops-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.stop {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: red;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.stop.selected {
+  background: limegreen;
+}
+
+.tooltip {
+  position: absolute;
+  background: white;
+  padding: 6px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+#sidebar {
+  flex: 1;
+  padding: 15px;
+  background: #f4f4f4;
+}
+
+#generate-route {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+#under-construction {
+  text-align: center;
+  padding: 40px;
+}
